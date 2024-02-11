@@ -1,0 +1,77 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+
+button {
+  background: orange;
+  color: white;
+  width: 150px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #333;
+  color: white;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+tfoot {
+  background-color: #333;
+  color: white;
+}
+
+.Form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.Form h1 {
+  text-align: center;
+}
+
+.Form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.Form button {
+  background: orange;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
